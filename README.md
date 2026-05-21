@@ -8,7 +8,7 @@
 
 #### What I do
 
-17 years of production engineering. 8 years as Team Lead at a publicly traded company designing **decision automation systems** — financial pricing engines, real-time risk scoring, approval workflow platforms. Now applying that same foundation to **LLM and agentic systems**: multi-agent orchestration, enterprise RAG, LLM evaluation pipelines.
+17 years of production engineering. 8 years as Team Lead at a publicly traded company designing **decision automation systems** — financial pricing engines, real-time risk scoring, approval workflow platforms. Now applying that same foundation to **LLM and agentic systems**: multi-agent orchestration with provider fallback chains, enterprise RAG, LLM evaluation pipelines.
 
 Recently graduated SAIT (April 2026): Post-Diploma Certificates in Integrated AI (3.92 GPA) and Data Analytics (4.0 GPA), 15 of 16 courses A+.
 
@@ -20,16 +20,18 @@ Recently graduated SAIT (April 2026): Post-Diploma Certificates in Integrated AI
 
 | Project | What it does |
 |---|---|
-| [**JobPilot AI**](https://github.com/DISSIDIA-986/jobpilot-ai) | Autonomous multi-agent job pipeline orchestrating 5 LLM providers with circuit breakers and fallback chains |
-| [**Industry-AI-Flow**](https://github.com/DISSIDIA-986/Industry-AI-Flow) | Enterprise RAG platform — LangChain + BM25 + pgvector hybrid retrieval over multi-format document corpus |
-| [**AI Ops Control Room**](https://github.com/DISSIDIA-986/ai-ops-control-room) | LLM-as-Judge evaluation pipeline (Qwen 3.5 + DeepSeek V3 on DeepEval, 3-dimension rubric) |
-| [**Autonomous-AI-Trade**](https://github.com/DISSIDIA-986/Autonomous-AI-Trade) | Production trading platform — FastAPI, AI-driven strategies, multi-layer risk management |
-| [**Fruit Ninja AI**](https://github.com/DISSIDIA-986/fruit-ninja-ai) | Gesture-controlled WebGL game — MediaPipe hand tracking + Three.js 3D rendering |
-| [**Portfolio Site**](https://portfolio.dissidia.tech) | Next.js 16 + React 19 + Tailwind v4 — this profile and more, deployed on Vercel |
+| [**Industry-AI-Flow**](https://github.com/DISSIDIA-986/Industry-AI-Flow) | Enterprise RAG platform on LangChain — BM25 + pgvector hybrid retrieval over multi-format document corpus (PDF, DOCX, scanned via PaddleOCR) |
+| [**AI Ops Control Room**](https://github.com/DISSIDIA-986/ai-ops-control-room) | LLM-as-Judge evaluation pipeline (Qwen 3.5 simulates customer, DeepSeek V3 evaluates on DeepEval, 3-dimension rubric) — React + FastAPI |
+| [**Hockey Puck Tracker**](https://github.com/DISSIDIA-986/hockey-puck-track-demo) | Computer vision demo — YOLO baseline + RF-DETR/RT-DETR for puck detection, multi-object tracking, trajectory visualization |
+| [**Fruit Ninja AI**](https://github.com/DISSIDIA-986/fruit-ninja-ai) | Gesture-controlled WebGL game — MediaPipe real-time hand tracking + Three.js 3D rendering on Alibaba Cloud ESA edge |
+| [**Portfolio Site**](https://portfolio.dissidia.tech) | Next.js 16 + React 19 + Tailwind v4 + Framer Motion — this profile and more, deployed on Vercel |
+| [**CELPIP-Compass**](https://github.com/DISSIDIA-986/CELPIP-Compass) | Full-stack spaced-repetition learning system — Next.js 16 + Prisma + PostgreSQL + Redis, Jest + Playwright coverage |
 
 #### How I think about engineering
 
 I treat AI features the same way I treat any production system: explicit interfaces, reliability stacks (circuit breakers, retries, structured output), observability, and tests. The technology stack changes; the discipline doesn't.
+
+I keep a few production projects private (multi-tenant SaaS work, agentic job automation with personal data, Havenz Tech codebase) — happy to walk through architecture and code in interviews.
 
 ---
 
