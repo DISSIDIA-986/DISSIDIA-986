@@ -24,8 +24,10 @@ Recently graduated SAIT (April 2026): Post-Diploma Certificates in Integrated AI
 | [**AI Ops Control Room**](https://github.com/DISSIDIA-986/ai-ops-control-room) | LLM-as-Judge evaluation pipeline (Qwen 3.5 simulates customer, DeepSeek V3 evaluates on DeepEval, 3-dimension rubric) — React + FastAPI |
 | [**Hockey Puck Tracker**](https://github.com/DISSIDIA-986/hockey-puck-track-demo) | Computer vision demo — YOLO baseline + RF-DETR/RT-DETR for puck detection, multi-object tracking, trajectory visualization |
 | [**Fruit Ninja AI**](https://github.com/DISSIDIA-986/fruit-ninja-ai) | Gesture-controlled WebGL game — MediaPipe real-time hand tracking + Three.js 3D rendering on Alibaba Cloud ESA edge |
-| [**Portfolio Site**](https://portfolio.dissidia.tech) | Next.js 16 + React 19 + Tailwind v4 + Framer Motion — this profile and more, deployed on Vercel |
+| [**diabetes-prediction-app**](https://github.com/DISSIDIA-986/diabetes-prediction-app) | End-to-end ML pipeline for diabetes risk prediction — PyCaret + Streamlit, deployed on Streamlit Cloud |
 | [**CELPIP-Compass**](https://github.com/DISSIDIA-986/CELPIP-Compass) | Full-stack spaced-repetition learning system — Next.js 16 + Prisma + PostgreSQL + Redis, Jest + Playwright coverage |
+
+Live portfolio site: **[portfolio.dissidia.tech](https://portfolio.dissidia.tech)** (Next.js 16 + React 19 + Tailwind v4, deployed on Vercel)
 
 #### How I think about engineering
 
