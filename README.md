@@ -33,7 +33,9 @@ Live portfolio site: **[portfolio.dissidia.tech](https://portfolio.dissidia.tech
 
 I treat AI features the same way I treat any production system: explicit interfaces, reliability stacks (circuit breakers, retries, structured output), observability, and tests. The technology stack changes; the discipline doesn't.
 
-I keep a few production projects private (multi-tenant SaaS work, agentic job automation with personal data, Havenz Tech codebase) — happy to walk through architecture and code in interviews.
+I keep a few production projects private (multi-tenant SaaS work, Havenz Tech codebase) — happy to walk through architecture and code in interviews.
+
+**JobPilot AI** is one of those — an autonomous multi-agent job pipeline orchestrating 5 LLM providers (GLM, Qwen, DeepSeek, GROQ, Ollama) with circuit breakers, structured Pydantic output, and per-task fallback chains. Live demo at **[jobpilot.dissidia.me](https://jobpilot.dissidia.me/)** (login required, self-hosted on Cloudflare).
 
 ---
 
